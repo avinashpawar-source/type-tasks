@@ -2,9 +2,9 @@ import {
     addTask,
     completeTask,
     filterByStatus
-} from "./model"
+} from "./model.js"
 
-import type {Task, TaskStatus} from "./model"
+import type {Task, TaskStatus} from "./model.js"
 
 const form = document.getElementById("task-form") as HTMLFormElement;
 const titleInput = document.getElementById("task-title") as HTMLInputElement;

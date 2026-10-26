@@ -1,4 +1,4 @@
-{
+// {
   // Visit https://aka.ms/tsconfig to read more about this file
   // "compilerOptions": {
   //   // File Layout
@@ -41,14 +41,27 @@
   //   "moduleDetection": "force",
   //   "skipLibCheck": true,
   // }
+//   "compilerOptions": {
+//     "target": "ES2020",
+//     "module": "CommonJS",
+//     "strict": true,
+//     "rootDir": ".",
+//     "outDir": "dist",
+//     "skipLibCheck": true
+//   },
+//   "include": ["app.ts"],
+//   "exclude": ["node_modules", "dist"]
+// }
+
+{
   "compilerOptions": {
     "target": "ES2020",
-    "module": "CommonJS",
+    "module": "ES2020",
     "strict": true,
     "rootDir": ".",
     "outDir": "dist",
     "skipLibCheck": true
   },
-  "include": ["app.ts"],
+  "include": ["model.ts", "app.ts"],
   "exclude": ["node_modules", "dist"]
 }
