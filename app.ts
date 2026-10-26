@@ -80,3 +80,4 @@ form.addEventListener("submit", (event) => {
 filterInput.addEventListener("change", render);
 
 render();
+console.log('Hello')

@@ -49,6 +49,6 @@
     "outDir": "dist",
     "skipLibCheck": true
   },
-  "include": ["model.ts", "demo.ts"],
+  "include": ["app.ts"],
   "exclude": ["node_modules", "dist"]
 }
